@@ -2,11 +2,14 @@
 
 ## Goal
 
-The goal of this exercise is to practice/learn:
+Implement a simple `ls`-like command.
+
+## Learning
 
 - Standart library in one language
 - OS basic structure
 - SOLID
+- Recursion
 - Tests
 
 ## Interactions
