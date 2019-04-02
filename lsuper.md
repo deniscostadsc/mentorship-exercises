@@ -15,6 +15,12 @@ I recommend to suggest a limited number of steps on each mentorship session.
 This will help mentee to implement using SOLID if mentee is not used to SOLID
 yet.
 
+I also recommend enforce the use of tests.
+
+After the first steps are finished. mentor must look at the code and give all
+feedbacks to improve the code, explaining each point and with good resource to
+go deep on that subject.
+
 ## Implementation
 
 This implementation os `ls`, must have this features:
@@ -76,11 +82,11 @@ file2
 file3
 ```
 
-- If a flag `--format=spaces` is passed to the `lsuper`, the files/foldersmust be
-printed with the default format, using spaces.
+- If a flag `--format=spaces` is passed to the `lsuper`, the files/foldersmust
+be printed with the default format, using spaces.
 
-- If a flag `--format=tree` is passed to the `lsuper`, the files/folders must be
-printed following `tree` command format. A sampla can be seen bellow.
+- If a flag `--format=tree` is passed to the `lsuper`, the files/folders must
+be printed following `tree` command format. A sampla can be seen bellow.
 
 ```
 lsuper --format=tree
@@ -132,7 +138,8 @@ file3
 ```
 
 ## Problem extensions
-If the mentee solves the problem quickly/easily additional features can be added, like:
+If the mentee solves the problem quickly/easily additional features can be
+added, like:
 
 - Append `*` to files/folder with execution permission.
 - Add new format, e.g. Json, XML.
