@@ -1,4 +1,4 @@
-# lsuper
+# lsimple
 
 ## Goal
 
@@ -33,7 +33,7 @@ This implementation os `ls`, must have this features:
 follows:
 
 ```
-$ lsuper
+$ lsimple
 file1
 file2
 file3
@@ -43,7 +43,7 @@ file3
 with slashes in the and of the name, as can be seen below.
 
 ```
-$ lsuper
+$ lsimple
 dir1/
 dir2/
 dir3/
@@ -54,7 +54,7 @@ of files. Within files, they must sorted alphabetically. Same for folders. A
 sample can be seen below.
 
 ```
-$ lsuper
+$ lsimple
 dir1/
 dir2/
 dir3/
@@ -63,12 +63,12 @@ file2
 file3
 ```
 
-- If a flag `--recursive` is passed to the `lsuper`, files and folders must be
+- If a flag `--recursive` is passed to the `lsimple`, files and folders must be
 printed recursivelly, with two spaces in front of the files every time it
 enters a folder. A sample can be seen bellow.
 
 ```
-$ lsuper --recursive
+$ lsimple --recursive
 dir1/
   subdir1/
   subdir2/
@@ -85,14 +85,14 @@ file2
 file3
 ```
 
-- If a flag `--format=spaces` is passed to the `lsuper`, the files/foldersmust
+- If a flag `--format=spaces` is passed to the `lsimple`, the files/foldersmust
 be printed with the default format, using spaces.
 
-- If a flag `--format=tree` is passed to the `lsuper`, the files/folders must
+- If a flag `--format=tree` is passed to the `lsimple`, the files/folders must
 be printed following `tree` command format. A sampla can be seen bellow.
 
 ```
-lsuper --format=tree
+lsimple --format=tree
 .
 ├── dir1
 ├── dir2
@@ -106,7 +106,7 @@ lsuper --format=tree
 combined. A sample can be seen below.
 
 ```
-lsuper --format=tree --recursive
+lsimple --format=tree --recursive
 .
 ├── dir1
 │   ├── subdir1
@@ -123,7 +123,7 @@ lsuper --format=tree --recursive
 ├── file2
 └── file3
 
-$ lsuper --format=spaces --recursive
+$ lsimple --format=spaces --recursive
 dir1/
   subdir1/
   subdir2/
