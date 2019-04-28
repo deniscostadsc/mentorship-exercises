@@ -6,23 +6,11 @@ Implement a simple `ls`-like command.
 
 ## Learning
 
-- Standart library in one language
 - OS basic structure
-- SOLID
 - Recursion
-- Tests
-
-## Interactions
-
-I recommend to suggest a limited number of steps on each mentorship session.
-This will help mentee to implement using SOLID if mentee is not used to SOLID
-yet.
-
-I also recommend enforce the use of tests.
-
-After the first steps are finished. mentor must look at the code and give all
-feedbacks to improve the code, explaining each point and with good resource to
-go deep on that subject.
+- SOLID
+- Standart library in one language
+- Tests and TDD
 
 ## Implementation
 
