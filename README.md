@@ -2,6 +2,7 @@
 
 This repository has a few exercises to help people learn programming.
 
+- [2048](./2048.md) - A 2048 implementation
 - [lsimple](./lsimple.md) - A simple `ls` implementation
 - [urlshortener](./urlshortener.md) - A url shortener service
 
